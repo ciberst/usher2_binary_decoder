@@ -4,3 +4,5 @@
 
 Для запуска:
 python3 main.py
+
+Быстрый запуск из браузера: https://repl.it/@ciberst/usher2decoder
