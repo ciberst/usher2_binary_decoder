@@ -4,3 +4,5 @@
 
 Для запуска:
 python3 main.py
+
+! Или, если не хотите ничего устанавливать, результат можно посмотреть прямо в браузере, копировав текcт программы из main.py в https://repl.it/languages/python3 и нажав Play (пример: https://repl.it/@alexfowler/GruesomeNiceFlashdrives)
