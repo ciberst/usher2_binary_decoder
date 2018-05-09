@@ -1,7 +1,7 @@
 from urllib.request import urlopen
 import json
 
-url = 'https://usher2.club/d1_uniq_ip4.json'
+url = 'https://usher2.club/d30_uniq_ip4.json'
 response = urlopen(url)
 
 string = response.read().decode('utf-8')
@@ -30,8 +30,8 @@ if len(tmp) != 0:
 	print(tmp)
 	prognoz = tmp
 	while(len(tmp) < 8):
-		prognoz = prognoz + '1'
 		tmp = tmp + '0'
+		prognoz = prognoz + '1'
 	prognoz_i = int(prognoz, 2)
 	tmp_i = int(tmp, 2)
 	prognoz_str = ''
