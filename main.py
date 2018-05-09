@@ -19,9 +19,11 @@ for obj in json_obj:
 		if obj['y'] > 53000:
 			sign = '1'
 			bit_count = bit_count + 1
+		if sign	== '':
+			bit_count = 8
 		tmp = tmp + sign
 		
-		if bit_count == 8:
+		if bit_count == 8 and len(tmp) != 0:
 			print (tmp)
 			print(chr(int(tmp, 2)))
 			tmp = ''
